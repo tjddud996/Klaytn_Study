@@ -32,7 +32,7 @@
 
 ### Scalability(확장성)
 
-기존 블록체인 플랫폼의 약점: TPS+ Block Interval
+#### 기존 블록체인 플랫폼의 약점 : TPS + Block Interval
 
 TPS: Transaction per second) 초당 몇개의 거래를 처리하는지 나타내는 지표
 
