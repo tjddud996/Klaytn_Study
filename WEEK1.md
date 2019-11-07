@@ -34,7 +34,7 @@
 
 #### 기존 블록체인 플랫폼의 약점 : TPS + Block Interval
 
-TPS: Transaction per second) 초당 몇개의 거래를 처리하는지 나타내는 지표
+1. TPS: Transaction per second) 초당 몇개의 거래를 처리하는지 나타내는 지표
 
 TPS가 높다는 것은 초당 처리량이 많다는 의미
 
@@ -42,7 +42,7 @@ ex) VISA- tps 1700, 비트코인 - tps 7, 이더리움- tps 15-20
 
 -> 현재 비트코인과 이더리움의 tps 가 VISA의 tps보다 현저히 낮기 때문에 VISA와 블록체인 시스템의 접목이 어려운 것이다!
 
-Block Interval: 블록생성간격
+2. Block Interval: 블록생성간격
 
 ex) 비트코인 - 10분, 이더리움 - 15~20초
 
@@ -54,7 +54,7 @@ TPS가 10,000& block interval이 10분 이면?
 
 = 1초에 10,000개의 트랜잭션을 생성하는데, 하나의 블록을 만드는데 10분이 걸림
 
-기존의 블록체인은 왜 느린가?
+#### 기존의 블록체인은 왜 느린가?
 
 -> 참여자가 많아질수록 속도가 빨라지는 시스템이 아니기 때문
 
@@ -100,7 +100,7 @@ Longest Chain Rule을 따른다.
 
 ## 섹션2. 클레이튼 이해하기
 
-- 합의
+1. 합의
 
 public blockchain: PoW, PoS 등등
 
