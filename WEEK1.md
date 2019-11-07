@@ -11,7 +11,7 @@
 
 서비스 체인, 이더리움과 클레이튼의 차이
 
-섹션0. 카카오의 블록체인 Klaytn
+##섹션0. 카카오의 블록체인 Klaytn
 
 특징) TPS 3000+ , 확장성&privacy, 저렴한 TX fee
 
@@ -19,7 +19,8 @@ solidity 문법 지원, Truffle Framework 지원
 
 툴) wallet, IDE, scope
 
-섹션1.
+
+## 섹션1.
 
 Scalability(확장성)
 
@@ -89,7 +90,7 @@ Longest Chain Rule을 따른다.
 
 51%의 의미- 51%의 지분율을 가지고 있으면 결정된다는 의미.
 
-섹션2. 클레이튼 이해하기
+## 섹션2. 클레이튼 이해하기
 
 합의
 
