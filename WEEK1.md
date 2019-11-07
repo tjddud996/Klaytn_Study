@@ -16,7 +16,7 @@
 
 ## 섹션0. 카카오의 블록체인 Klaytn
 
-특징) TPS 3000+ , 확장성&privacy, 저렴한 TX fee
+> 특징) TPS 3000+ , 확장성&privacy, 저렴한 TX fee
 
 solidity 문법 지원, Truffle Framework 지원
 
