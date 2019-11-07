@@ -88,7 +88,7 @@ Longest Chain Rule을 따른다.
 
 ## 섹션2. 클레이튼 이해하기
 
-1. 합의
+## 1. 합의
 
 public blockchain: PoW, PoS 등등
 
