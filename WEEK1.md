@@ -36,23 +36,23 @@
 
 1. TPS: Transaction per second) 초당 몇개의 거래를 처리하는지 나타내는 지표
 
-TPS가 높다는 것은 초당 처리량이 많다는 의미
+> TPS가 높다는 것은 초당 처리량이 많다는 의미
 
-ex) VISA- tps 1700, 비트코인 - tps 7, 이더리움- tps 15-20
+> ex) VISA- tps 1700, 비트코인 - tps 7, 이더리움- tps 15-20
 
--> 현재 비트코인과 이더리움의 tps 가 VISA의 tps보다 현저히 낮기 때문에 VISA와 블록체인 시스템의 접목이 어려운 것이다!
+> -> 현재 비트코인과 이더리움의 tps 가 VISA의 tps보다 현저히 낮기 때문에 VISA와 블록체인 시스템의 접목이 어려운 것이다!
 
 2. Block Interval: 블록생성간격
 
-ex) 비트코인 - 10분, 이더리움 - 15~20초
+> ex) 비트코인 - 10분, 이더리움 - 15~20초
 
-ex2) ETH : 20tps & 15초 block interval
+> ex2) ETH : 20tps & 15초 block interval
 
-1초에 20*15 =300 transactions 거래 가능
+> 1초에 20*15 =300 transactions 거래 가능
 
-TPS가 10,000& block interval이 10분 이면?
+> TPS가 10,000& block interval이 10분 이면?
 
-= 1초에 10,000개의 트랜잭션을 생성하는데, 하나의 블록을 만드는데 10분이 걸림
+> = 1초에 10,000개의 트랜잭션을 생성하는데, 하나의 블록을 만드는데 10분이 걸림
 
 #### 기존의 블록체인은 왜 느린가?
 
