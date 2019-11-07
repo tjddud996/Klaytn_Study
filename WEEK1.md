@@ -1,9 +1,10 @@
-## Klaytn-study-1
-섹션0. 1. 인트로
+# Klaytn-study-1
+- 섹션0. 1. 인트로
 
-섹션1. 2.기존 블록체인 플랫폼의 약점
-
--scalability, finality, fork
+- 섹션1. 2.기존 블록체인 플랫폼의 약점
+  - scalability
+  - Finality 
+  - fork
 
 섹션2. 3.클레이튼 이해하기
 
