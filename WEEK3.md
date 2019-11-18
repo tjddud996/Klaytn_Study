@@ -65,22 +65,52 @@
 ### 번외. npm install 오류 해결
 > 윈도우 환경에서 실행하지 않고 ubuntu 환경에서 실행하도록 한다.
 
-1) 윈도우에 ubuntu 설치할 수 있는 환경 설정
--> 제어판 > 프로그램 > 프로그램 및 기능 > Windows 기능 켜기/끄기
--> 'Linux용 Windows 하위 시스템' 체크박스 클릭
--> 컴퓨터 재부팅
+#### 1) 윈도우에 ubuntu 설치할 수 있는 환경 설정
+- 제어판 > 프로그램 > 프로그램 및 기능 > Windows 기능 켜기/끄기
+- 'Linux용 Windows 하위 시스템' 체크박스 클릭
+- 컴퓨터 재부팅
 
-2) ubuntu 설치
--> Microsoft store에서 linux검색 후 “windows에서 linux 실행하기” 클릭
--> ubuntu 클릭 후 다운로드
+#### 2) ubuntu 설치
+- Microsoft store에서 linux검색 후 “windows에서 linux 실행하기” 클릭
+- ubuntu 클릭 후 다운로드
 
-3) ubuntu 실행
--> 다운로드 받은 ubuntu 실행
--> username 입력
--> password 입력
--> 설치 완료
+#### 3) ubuntu 실행
+- 다운로드 받은 ubuntu 실행
+- username 입력
+- password 입력
+- 설치 완료
 
 * cmd 창에서 bash 입력 시 우분투 터미널 이용 가능
 
-4) 업데이트
--> 
+#### 4) 업데이트
+- sudo apt-get update
+- sudo apt-get upgrade > YES 선택
+
+#### 5) node.js, npm 버전 확인
+- node -v : node.js 버전 확인
+- npm -v : npm 버전 확인
+= Command not found 오류 발생
+
+#### 6) 오류 해결
+- curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash –
+- sudo apt-get install -y nodejs
+- sudo apt install note
+- sudo apt-get install -y build-essential
+
+#### 7) node.js, npm 버전 재확인
+- node -v : node.js 버전 확인
+- npm -v : npm 버전 확인
+= npm만 Command not found 오류 발생
+
+#### 8) npm 버전 오류 해결
+- sudo apt install npm
+- npm -v
+= 제대로 된 버전 확인!
+
+#### 9) npm install
+- 비주얼 스튜디오 코드에서 new Folder로 코드 파일이 있는 폴더 열기
+- Terminal > New Terminal로 새 터미널을 염
+- bash로 ubuntu 터미널 진입
+- npm install
+
+#### 성공!
