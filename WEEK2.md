@@ -1,6 +1,8 @@
-섹션3. 클레이튼 덧셈게임 개발 with Klaytn Tools
+# Klaytn-study-2
 
-1. 덧셈 게임 개요
+## 섹션3. 클레이튼 덧셈게임 개발 with Klaytn Tools
+
+### 1. 덧셈 게임 개요
 
 사용 언어
 1)클레이튼 caver.js = 이더리움 web3.js
@@ -29,7 +31,7 @@ scope:트랜잭션 정보를 찾아볼 수 있는 곳
 
 
 
-2. 스마트계약1- 컨트랙으로 KLAY 송금
+### 2. 스마트계약1- 컨트랙으로 KLAY 송금
 
 1)컨트랙의 이름을 additiongame으로 설정
 2)배포하는 순간 운영자 계정의 주소를 저장할 수 있는 상태변수를 만들고 생성자를 만든다.
@@ -47,7 +49,7 @@ contractaddress: 트랜잭션이 어느 주소에 배포가 되었는지 볼 수
 
 
 
-3. 스마트계약2- 컨트랙의 잔액 불러오기
+### 3. 스마트계약2- 컨트랙의 잔액 불러오기
 
 1)생성자 안에 함수 코드 작성
 function getBalance() public  view             return(uint)
@@ -68,7 +70,7 @@ function deposit() public payable{}
 
 
 
-4. 스마트계약3- 컨트랙에서 사용자 계정으로 KLAY 보내기
+### 4. 스마트계약3- 컨트랙에서 사용자 계정으로 KLAY 보내기
 덧셈게임에서 정답을 맞췄을 때, 정답을 맞춘 사용자가 직접 이 함수를 호출해서 돈을 받아가는 구조
 
 1) function transfer(uint _value) public return (bool) {
